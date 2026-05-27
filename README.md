@@ -9,7 +9,6 @@ Este proyecto simula un escenario empresarial real donde se transforma un set de
 
 ![Vista Principal del Dashboard](images/Dashboard_principal.png)
 
-
 ---
 
 ## 🛠️ Herramientas y Habilidades Utilizadas
