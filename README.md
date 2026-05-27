@@ -24,7 +24,7 @@ El modelo se construyó bajo un enfoque de **Modelo en Estrella** para optimizar
 
 * **Tabla de Hechos:** `Fact_Ventas` (Pedidos e importes netos).
 * **Tablas de Dimensiones:** `Dim_Clientes`, `Dim_Productos`, `Dim_Empleados`, `Dim_Transportistas` y `Dim_Calendario`.
-* **Modelo de Estrella:** ![Arquitectura del Modelo en Estrella](images/modelo_estrella.png)
+* ![Arquitectura del Modelo en Estrella](images/modelo_estrella.png)
 
 ---
 
