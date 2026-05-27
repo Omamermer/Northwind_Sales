@@ -32,4 +32,12 @@ El modelo se construyó bajo un enfoque de **Modelo en Estrella** para optimizar
 ### 1. Ventas Totales (Monto Neto)
 Calculado de forma eficiente tras la optimización en Power Query:
 ```dax
-Ventas_Totales = SUM(Fact_Ventas[Importe_Neto])
+Ventas_Totales = SUM(Fact_Ventas[Importe_Neto]).
+
+### 2. Porcentaje de Crecimiento Anual (YoY) con control de errores
+Crecimiento_YOY_% = 
+IF(
+    HASONEVALUE('Dim_Calendario'[Año]), 
+    DIVIDE(([Ventas_Totales] - [Ventas_Anio_Anterior]), [Ventas_Anio_Anterior], 0),
+    BLANK()
+)
