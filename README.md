@@ -29,15 +29,30 @@ El modelo se construyó bajo un enfoque de **Modelo en Estrella** para optimizar
 
 ## 💡 Principales Métricas Implementadas (DAX)
 
-### 1. Ventas Totales (Monto Neto)
-Calculado de forma eficiente tras la optimización en Power Query:
-```dax
-Ventas_Totales = SUM(Fact_Ventas[Importe_Neto]).
+El proyecto cuenta con un modelo de cálculo avanzado optimizado para el rendimiento del motor VertiPaq. A continuación se destacan las métricas clave que articulan la inteligencia de negocio del informe:
 
-### 2. Porcentaje de Crecimiento Anual (YoY) con control de errores
-Crecimiento_YOY_% = 
+### 1. Ventas Totales (Monto Neto)
+Calculado de forma eficiente sumando la columna de importe neto previamente procesada, normalizada y saneada en la etapa de ETL (Power Query):
+```dax
+Monto de ventas = SUM(fct_ventas[importeNeto])
+```
+### 2. Ventas del Año Anterior (Time Intelligence)
+Métrica de transición que desplaza el contexto de filtrado temporal exactamente un año atrás para permitir comparaciones homólogas (Year-Over-Year):
+```dax
+Ventas año anterior = 
+CALCULATE(
+    [Monto de ventas],
+    SAMEPERIODLASTYEAR(dim_calendario[Date])
+)
+```
+3. Porcentaje de Crecimiento Anual (YoY %) con Control de Contexto
+Implementa una estructura condicional defensiva mediante HASONEVALUE. Si el usuario visualiza el reporte de forma agregada (todos los años seleccionados), la tarjeta se protege y devuelve un valor en blanco (BLANK()) para evitar inducir a error con métricas históricas acumuladas sin sentido de negocio. Solo se activa cuando el contexto detecta un único año filtrado:
+```dax
+% de crecimiento anual = 
 IF(
-    HASONEVALUE('Dim_Calendario'[Año]), 
-    DIVIDE(([Ventas_Totales] - [Ventas_Anio_Anterior]), [Ventas_Anio_Anterior], 0),
+    HASONEVALUE(dim_calendario[Año]),
+    DIVIDE(([Monto de ventas] - [Ventas año anterior]), [Ventas año anterior],0),
     BLANK()
 )
+```
+
