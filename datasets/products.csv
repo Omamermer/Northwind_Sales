@@ -20,14 +20,14 @@ productID,productName,quantityPerUnit,unitPrice,discontinued,categoryID
 19,Teatime Chocolate Biscuits,10 boxes x 12 pieces,9.2,0,3
 20,Sir Rodney's Marmalade,30 gift boxes,81,0,3
 21,Sir Rodney's Scones,24 pkgs. x 4 pieces,10,0,3
-22,Gustaf's Knackebröd,24 - 500 g pkgs.,21,0,5
-23,Tunnbröd,12 - 250 g pkgs.,9,0,5
+22,Gustaf's KnackebrÃ¶d,24 - 500 g pkgs.,21,0,5
+23,TunnbrÃ¶d,12 - 250 g pkgs.,9,0,5
 24,Guarana Fantastica,12 - 355 ml cans,4.5,1,1
-25,NuNuCa Nuß-Nougat-Creme,20 - 450 g glasses,14,0,3
-26,Gumbär Gummibärchen,100 - 250 g bags,31.23,0,3
+25,NuNuCaÂ NuÃŸ-Nougat-Creme,20 - 450 g glasses,14,0,3
+26,GumbÃ¤r GummibÃ¤rchen,100 - 250 g bags,31.23,0,3
 27,Schoggi Schokolade,100 - 100 g pieces,43.9,0,3
-28,Rössle Sauerkraut,25 - 825 g cans,45.6,1,7
-29,Thüringer Rostbratwurst,50 bags x 30 sausgs.,123.79,1,6
+28,RÃ¶ssle Sauerkraut,25 - 825 g cans,45.6,1,7
+29,ThÃ¼ringer Rostbratwurst,50 bags x 30 sausgs.,123.79,1,6
 30,Nord-Ost Matjeshering,10 - 200 g glasses,25.89,0,8
 31,Gorgonzola Telino,12 - 100 g pkgs,12.5,0,4
 32,Mascarpone Fabioli,24 - 200 g pkgs.,32,0,4
@@ -36,7 +36,7 @@ productID,productName,quantityPerUnit,unitPrice,discontinued,categoryID
 35,Steeleye Stout,24 - 12 oz bottles,18,0,1
 36,Inlagd Sill,24 - 250 g  jars,19,0,8
 37,Gravad lax,12 - 500 g pkgs.,26,0,8
-38,Côte de Blaye,12 - 75 cl bottles,263.5,0,1
+38,CÃ´te de Blaye,12 - 75 cl bottles,263.5,0,1
 39,Chartreuse verte,750 cc per bottle,18,0,1
 40,Boston Crab Meat,24 - 4 oz tins,18.4,0,8
 41,Jack's New England Clam Chowder,12 - 12 oz cans,9.65,0,8
@@ -52,17 +52,17 @@ productID,productName,quantityPerUnit,unitPrice,discontinued,categoryID
 51,Manjimup Dried Apples,50 - 300 g pkgs.,53,0,7
 52,Filo Mix,16 - 2 kg boxes,7,0,5
 53,Perth Pasties,48 pieces,32.8,1,6
-54,Tourtière,16 pies,7.45,0,6
-55,Pâté chinois,24 boxes x 2 pies,24,0,6
+54,TourtiÃ¨re,16 pies,7.45,0,6
+55,PÃ¢tÃ© chinois,24 boxes x 2 pies,24,0,6
 56,Gnocchi di nonna Alice,24 - 250 g pkgs.,38,0,5
 57,Ravioli Angelo,24 - 250 g pkgs.,19.5,0,5
 58,Escargots de Bourgogne,24 pieces,13.25,0,8
 59,Raclette Courdavault,5 kg pkg.,55,0,4
 60,Camembert Pierrot,15 - 300 g rounds,34,0,4
-61,Sirop d'érable,24 - 500 ml bottles,28.5,0,2
+61,Sirop d'Ã©rable,24 - 500 ml bottles,28.5,0,2
 62,Tarte au sucre,48 pies,49.3,0,3
 63,Vegie-spread,15 - 625 g jars,43.9,0,2
-64,Wimmers gute Semmelknödel,20 bags x 4 pieces,33.25,0,5
+64,Wimmers gute SemmelknÃ¶del,20 bags x 4 pieces,33.25,0,5
 65,Louisiana Fiery Hot Pepper Sauce,32 - 8 oz bottles,21.05,0,2
 66,Louisiana Hot Spiced Okra,24 - 8 oz jars,17,0,2
 67,Laughing Lumberjack Lager,24 - 12 oz bottles,14,0,1
@@ -71,8 +71,8 @@ productID,productName,quantityPerUnit,unitPrice,discontinued,categoryID
 70,Outback Lager,24 - 355 ml bottles,15,0,1
 71,Flotemysost,10 - 500 g pkgs.,21.5,0,4
 72,Mozzarella di Giovanni,24 - 200 g pkgs.,34.8,0,4
-73,Röd Kaviar,24 - 150 g jars,15,0,8
+73,RÃ¶d Kaviar,24 - 150 g jars,15,0,8
 74,Longlife Tofu,5 kg pkg.,10,0,7
-75,Rhönbräu Klosterbier,24 - 0.5 l bottles,7.75,0,1
-76,Lakkaliköri,500 ml,18,0,1
-77,Original Frankfurter Grüne Soße,12 boxes,13,0,2
+75,RhÃ¶nbrÃ¤u Klosterbier,24 - 0.5 l bottles,7.75,0,1
+76,LakkalikÃ¶ri,500 ml,18,0,1
+77,Original Frankfurter GrÃ¼ne SoÃŸe,12 boxes,13,0,2
