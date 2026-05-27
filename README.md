@@ -7,8 +7,8 @@ Este proyecto simula un escenario empresarial real donde se transforma un set de
 
 ## 📸 Vista General del Dashboard
 
-![Vista Principal del Dashboard](images/dashboardpirncipal.png)
-*(Aquí se cargará automáticamente la imagen de tu dashboard para que el reclutador lo vea al instante)*
+![Vista Principal del Dashboard](images/Dashboard_principal.png)
+
 
 ---
 
