@@ -64,16 +64,16 @@ Tras consolidar el modelo de datos y analizar el comportamiento histórico de No
 
 ### 1. 🎯 Diagnóstico de Crecimiento Interanual (Evolución Temporal)
 Al analizar la línea de tendencia histórica, el negocio muestra un comportamiento muy particular:
-* **Fase de Arranque (2013):** La compañía inicia operaciones registradas en julio de 2013 con un volumen modesto pero constante (entorno a los 100K mensuales).
-* **Consolidación (2014):** Se observa un pico estacional agresivo en **abril de 2014 (1,1 mill.)**, seguido de una estabilización y un crecimiento sostenido en el último trimestre, cerrando octubre en 1,3 mill.
-* **Explosión Comercial (2015):** El año 2015 marca el récord histórico de la compañía con un pico vertical sin precedentes en **febrero llegando a los 2,5 mill.** de facturación, consolidando un **crecimiento anual del 71,97%** en los periodos activos. 
+* **Fase de Arranque (2013):** La compañía inicia operaciones registradas en julio de 2013 con un volumen modesto pero constante (entorno a los 200K mensuales).
+* **Consolidación (2014):** Se observa un pico estacional agresivo en **abril de 2014 (1,3 mill.)**, seguido de una estabilización y un crecimiento sostenido en el último trimestre, cerrando diciembre en 1,8 mill.
+* **Explosión Comercial (2015):** El año 2015 marca el récord histórico de la compañía con un pico vertical sin precedentes en **febrero llegando a los 3,1 mill.** de facturación, y si comparamos el **ticket medio** de 2013 con el del 2014 podemos ver que hay una diferencia sustancial (24k), lo que significa que el aumento de ingresos se debe tambien a que nuestros clientes cada vez compran productos más caros.
 * *Recomendación estratégica:* Investigar qué campaña comercial, rotura de stock de la competencia o política de precios provocó el éxito de febrero de 2015 para estandarizar ese comportamiento el resto de meses.
 
 ### 2. ⚖️ Riesgo de Concentración de Clientes y Dependencia Logística
 El análisis cruzado de rankings revela vulnerabilidades operativas en la cadena de valor:
-* **Riesgo en Clientes:** El Top 3 de clientes (`Hungry Owl All-Night Grocers` con 2,4M, `Save-a-lot Markets` con 2,4M y `QUICK-Stop` con 2,1M) acumula una porción masiva de los 22,80M totales del negocio. Perder a uno solo de estos tres clientes supondría un impacto crítico de casi el 10% de la facturación global.
+* **Riesgo en Clientes:** El Top 3 de clientes (`Hungry Owl All-Night Grocers` con 2,4M, `Save-a-lot Markets` con 2,3M y `QUICK-Stop` con 2,1M) acumula una porción masiva de los 22,80M totales del negocio. Perder a uno solo de estos tres clientes supondría un impacto crítico de casi el 10% de la facturación global.
 * **Monopolio Logístico:** A nivel de distribución, el transportista `United Package` controla el **48,84% del mercado** (11,13 mill.), facturando prácticamente lo mismo que sus dos competidores juntos (`Federal Shipping` y `Speedy Express`). 
-* *Recomendación estratégica:* Se sugiere diversificar los envíos o renegociar tarifas con `Federal Shipping` para mitigar el riesgo operativo de que una huelga o caída de servicio de `United Package` paralice la mitad de las entregas de la empresa.
+* *Recomendación estratégica:* Se sugiere diversificar los envíos o renegociar tarifas con `Federal Shipping o Speedy Express` para mitigar el riesgo operativo de que una huelga o caída de servicio de `United Package` paralice la mitad de las entregas de la empresa.
 
 ### 3. 🌍 Concentración Geográfica del Mercado
 Aunque la compañía vende a nivel global, los ingresos reales están altamente centralizados:
