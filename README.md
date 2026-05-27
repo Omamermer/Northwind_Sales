@@ -7,7 +7,7 @@ Este proyecto simula un escenario empresarial real donde se transforma un set de
 
 ## 📸 Vista General del Dashboard
 
-![Vista Principal del Dashboard](images/dashboard_principal)
+![Vista Principal del Dashboard](images/Dashboard_principal)
 
 ---
 
