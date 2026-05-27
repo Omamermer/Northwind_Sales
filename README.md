@@ -45,7 +45,7 @@ CALCULATE(
     SAMEPERIODLASTYEAR(dim_calendario[Date])
 )
 ```
-3. Porcentaje de Crecimiento Anual (YoY %) con Control de Contexto
+### 3. Porcentaje de Crecimiento Anual (YoY %) con Control de Contexto
 Implementa una estructura condicional defensiva mediante HASONEVALUE. Si el usuario visualiza el reporte de forma agregada (todos los años seleccionados), la tarjeta se protege y devuelve un valor en blanco (BLANK()) para evitar inducir a error con métricas históricas acumuladas sin sentido de negocio. Solo se activa cuando el contexto detecta un único año filtrado:
 ```dax
 % de crecimiento anual = 
@@ -56,7 +56,6 @@ IF(
 )
 ```
 ---
-## 📊 Insights y Conclusiones de Negocio
 
 ## 📊 Análisis Estratégico e Insights de Negocio (Enfoque Ejecutivo)
 
